@@ -33,26 +33,77 @@ nav {
     font-weight: 800;
 
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
     list-style-type: none;
 }
-nav li{
+
+nav li {
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
-header{
+
+header {
     background: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
+
+.banner {
     display: flex;
     align-items: center;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
 }
-.banner .profile-image{
-    width: 550px;
-    height: 600px;
+
+.banner .profile-image {
+    width: 450px;
+    height: 500px;
 }
+
+.banner-content h3 {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.banner-content h2 {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0px;
+
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+}
+
+
+/* About Section Part CSS Start */
+.about-part {
+    width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.title h2{
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.about-details{
+    width: 830px;
+}
+
+/* About Section Part CSS End */
